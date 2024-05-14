@@ -1,10 +1,10 @@
-##declaração de variáveis
+#variáveis
 
 heroi = ''
 xp_heroi = ''
 nivel = ''
 
-##repetição e decisão
+# Laços de Repetição e Estruturas de decisão 
 while True:
     heroi = input('Digite seu nome, grande herói: ')
     xp_heroi = input('diga-me, qual é seu XP? ')
@@ -17,6 +17,7 @@ while True:
 
 xp_heroi = int(xp_heroi)
 
+#condição para verificação de nivel 
 if xp_heroi <= 1000:
    nivel = 'Ferro'
 elif xp_heroi >= 1001 and xp_heroi <= 2000:
@@ -34,5 +35,6 @@ elif xp_heroi >= 9001 and xp_heroi <= 10000:
 elif xp_heroi >= 10001:
     nivel = 'Radiante'
 
+#Saída
 if heroi != '' and xp_heroi != '':
     print('Então, o (a) grande herói(na) de nome {} está no nível de {}'.format(heroi, nivel))
