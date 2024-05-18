@@ -32,7 +32,8 @@ elif xp_heroi >= 8001 and xp_heroi <= 9000:
     nivel = 'Ascendente'
 elif xp_heroi >= 9001 and xp_heroi <= 10000:
     nivel = 'Imortal'
-elif xp_heroi >= 10001:
+else :
+    xp_heroi >= 10001
     nivel = 'Radiante'
 
 #Saída
